@@ -33,7 +33,7 @@ namespace WordControl
             }
         }
         //char型の配列を引数としてstring型に変換し、小文字や句読点を直前の要素に結合したリストを返す。
-        //正規表現で特殊記号なども扱いたいナリ
+        //正規表現で特殊記号なども扱いたい
         public List<string> MakeList(char[] charArray){
             var wordList = new List<string>{};
             var halfStrList = new List<string>{
@@ -67,7 +67,7 @@ namespace WordControl
          static void Main(string[] args)
         {
             var s = new StringControler{
-            FilePass = "/Users/amagairiku/C#/c#/NobelGame/WordControl/表示する文字列.txt",
+            FilePass = "/WordControl/表示する文字列.txt",
             Time = 40
             };
             //Console.WriteLine(string.Join(",",s.MakeArray()));
